@@ -21,18 +21,16 @@ const TabStyled = styled.a`
 `;
 
 const NavBar: React.FC = () => {
-    return (
-        <HeaderContainerStyled>
-            <div>
-                <TabStyled href="/link" className="navbar-item" title="Logo">SOUNDCLOUD</TabStyled>
-            </div>
-            <TabStyled>JvP&apos; s Radio</TabStyled>
-            <HeaderStyled>
-                <TabStyled href="/" className="navbar-item" title="Logo">RADIO</TabStyled>
-                <TabStyled href="/about" className="navbar-item" title="Logo">ABOUT</TabStyled>
-            </HeaderStyled>
-        </HeaderContainerStyled>
-    )
-}
+  return (
+    <HeaderContainerStyled>
+      <TabStyled href="/link" className="navbar-item" title="Logo">SOUNDCLOUD</TabStyled>
+      <TabStyled>JvP&apos; s Radio</TabStyled>
+      <HeaderStyled>
+        <TabStyled href="/" className="navbar-item" title="Logo">RADIO</TabStyled>
+        <TabStyled href="/about" className="navbar-item" title="Logo">ABOUT</TabStyled>
+      </HeaderStyled>
+    </HeaderContainerStyled>
+  );
+};
 
 export default NavBar;

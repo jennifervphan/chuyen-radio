@@ -9,5 +9,5 @@ body {
 
 @font-face {
     font-family: 'Train One';
-    src: local('Train One'), url(./fonts/TrainOne-Regular.ttf) format('truetype');
+    src: local('Train One'), url("./assets/fonts/TrainOne-Regular.ttf") format('truetype');
 }

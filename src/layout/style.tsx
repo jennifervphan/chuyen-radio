@@ -11,3 +11,7 @@ export const LayoutStyled = styled.div`
   margin: 0;
   background-color: ${COLOURS[0]};
 `;
+
+export const Container = styled.div`
+  height: 100%;
+`;
