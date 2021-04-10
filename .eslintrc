@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module", // Allows for the use of imports
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-underscore-dangle": "off",
+    "comma-dangle": ["error", "never"],
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "quotes": [2, "double"],
+    "import/no-unresolved": "off",
+    "object-curly-newline": "off",
+    "max-len": "off",
+    "array-callback-return": "warn",
+    "default-case": "error",
+    "eqeqeq": "error",
+    "no-else-return": "warn",
+    "no-invalid-this": "error",
+    "no-iterator": "off",
+    "no-unused-vars": "warn",
+    "no-label-var": "warn",
+    "no-mixed-requires": "error",
+    "multiline-ternary": ["error", "always-multiline"],
+    "no-extra-parens": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+    }
+  }
+}
